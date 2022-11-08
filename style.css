@@ -1,0 +1,137 @@
+
+/* START FLEX */
+.flex-container {
+  display: flex;
+  background-color: rgb(255, 236, 192);
+  background-size:auto;
+  flex-direction: column;
+  justify-content:right;
+  align-items: center;
+  flex-direction: column;
+  font-family: Helvetica; 
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-item {
+  background-color: rgba(112, 63, 31, 0.755);
+  width: 90%;
+  margin: 10px;
+  text-align:center;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  font-size: 15px;
+}
+/* END FLEX */ 
+
+/* START NAV BAR */
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(97, 69, 35);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* END NAV BAR */
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(123, 86, 44);
+}
+
+.active {
+  background-color: #ddcead;
+}
+
+/* START BUTTONS */
+button {
+  background-color: rgba(112, 63, 31, 0.755);
+  border: .5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+}
+/* END BUTTONS */
+
+/* START FOOTER */ 
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(97, 69, 35);
+}
+
+.footer__headline {
+  font-weight: bold;
+  font-family: 'Helvetica';
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 5px;
+}
+
+.footer__list {
+  font-family: 'Helvetica';
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3%;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: rgba(203, 119, 63, 0.755);
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: rgba(203, 119, 63, 0.755);
+  color: white;
+}
+
+.fa-instagram {
+  background: rgba(203, 119, 63, 0.755);
+  color: white;
+}
+/* END FOOTER */
